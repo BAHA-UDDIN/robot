@@ -186,7 +186,7 @@ def login_lagi334():
 		ken=open(".token.txt", "w").write(find_token.group(1))
 		cok=open(".cok.txt", "w").write(cookie)
 		os.system("play-audio successful.mp3 ")
-		print(f' \x1b[1;91m➢\x1b[1;96m➣\x1b[1;92m➣ Login Successful \n \x1b[1;91m\x1b[1;96m\x1b[1;92m Type \x1b[1;96mpython BAHA.py');time.sleep(1)
+		print(f' \x1b[1;91m➢\x1b[1;96m➣\x1b[1;92m➣ Login Successful \n \x1b[1;91m\x1b[1;96m\x1b[1;92m Type \x1b[1;96mpython KAUSAR.py');time.sleep(1)
 		exit()
 	except Exception as e:
 		os.system("rm -f .token.txt")
@@ -387,6 +387,7 @@ def passwrd():
 	print(f"\x1b[1;91m [💉] \x1b[1;92m TODAY DATE        \x1b[1;91m➢ \x1b[1;92m{ha}\x1b[1;91m/\x1b[1;92m{bu}\x1b[1;91m/\x1b[1;92m{ta} ")
 	print(f"\x1b[1;91m [😩] \x1b[1;91m NOTE ➢ \33[1;92m[ USE AIRPLANE MODE BEFORE USE ] ")
 	print(f'\x1b[1;91m●\x1b[1;92m═━═━═━═━═━═━═━═━═━═━═━═\x1b[1;91m❴\033[47m\033[1;30mᗰᖇ.ᗷᗩᕼᗩᑌᗪᗪIᑎ\033[40m\033[00m\x1b[1;91m❵\x1b[1;92m═━═━═━═━═━═━═━═━═━═━═━═\x1b[1;91m●\n')
+	os.system("play-audio stard.mp3 ")
 	with tred(max_workers=30) as pool:
 		for yuzong in id2:
 			idf,nmf = yuzong.split('|')[0],yuzong.split('|')[1].lower()
@@ -447,7 +448,6 @@ def passwrd():
 def crack(idf,pwv):
 	global loop,ok,cp
 	bo = random.choice([m,k,h,b,u,x])
-	os.system("play-audio stard.mp3 ")
 	sys.stdout.write(f"\r{bo}  \x1b[1;90m [\x1b[1;92m{ha}\x1b[1;91m/\x1b[1;92m{bu}\x1b[1;91m/\x1b[1;92m{ta}\x1b[1;90m]  {h}[{k}{loop}/{len(id)}{h}] {h}[OK] {h}[{ok}] {h}[{'{:.0%}'.format(loop/float(len(id)))}]  "),
 	sys.stdout.flush()
 	ua = random.choice(ugen)
